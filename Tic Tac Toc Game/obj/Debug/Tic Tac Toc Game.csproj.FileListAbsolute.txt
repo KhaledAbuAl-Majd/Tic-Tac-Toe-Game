@@ -1,0 +1,10 @@
+E:\Visual Studio\source\Projects\Course 14\P2.Tic-Tac-Toe Game\Tic Tac Toc Game\bin\Debug\Tic Tac Toc Game.exe.config
+E:\Visual Studio\source\Projects\Course 14\P2.Tic-Tac-Toe Game\Tic Tac Toc Game\bin\Debug\Tic Tac Toc Game.exe
+E:\Visual Studio\source\Projects\Course 14\P2.Tic-Tac-Toe Game\Tic Tac Toc Game\bin\Debug\Tic Tac Toc Game.pdb
+E:\Visual Studio\source\Projects\Course 14\P2.Tic-Tac-Toe Game\Tic Tac Toc Game\obj\Debug\Tic Tac Toc Game.csproj.AssemblyReference.cache
+E:\Visual Studio\source\Projects\Course 14\P2.Tic-Tac-Toe Game\Tic Tac Toc Game\obj\Debug\Tic_Tac_Toc_Game.From1.resources
+E:\Visual Studio\source\Projects\Course 14\P2.Tic-Tac-Toe Game\Tic Tac Toc Game\obj\Debug\Tic_Tac_Toc_Game.Properties.Resources.resources
+E:\Visual Studio\source\Projects\Course 14\P2.Tic-Tac-Toe Game\Tic Tac Toc Game\obj\Debug\Tic Tac Toc Game.csproj.GenerateResource.cache
+E:\Visual Studio\source\Projects\Course 14\P2.Tic-Tac-Toe Game\Tic Tac Toc Game\obj\Debug\Tic Tac Toc Game.csproj.CoreCompileInputs.cache
+E:\Visual Studio\source\Projects\Course 14\P2.Tic-Tac-Toe Game\Tic Tac Toc Game\obj\Debug\Tic Tac Toc Game.exe
+E:\Visual Studio\source\Projects\Course 14\P2.Tic-Tac-Toe Game\Tic Tac Toc Game\obj\Debug\Tic Tac Toc Game.pdb
