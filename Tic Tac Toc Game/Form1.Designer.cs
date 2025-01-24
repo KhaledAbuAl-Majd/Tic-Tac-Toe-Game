@@ -34,24 +34,15 @@
             this.label3 = new System.Windows.Forms.Label();
             this.lblWinner = new System.Windows.Forms.Label();
             this.btnRestartGame = new System.Windows.Forms.Button();
-            this.pb1 = new System.Windows.Forms.PictureBox();
-            this.pb2 = new System.Windows.Forms.PictureBox();
-            this.pb3 = new System.Windows.Forms.PictureBox();
-            this.pb4 = new System.Windows.Forms.PictureBox();
-            this.pb5 = new System.Windows.Forms.PictureBox();
-            this.pb6 = new System.Windows.Forms.PictureBox();
-            this.pb7 = new System.Windows.Forms.PictureBox();
-            this.pb8 = new System.Windows.Forms.PictureBox();
-            this.pb9 = new System.Windows.Forms.PictureBox();
-            ((System.ComponentModel.ISupportInitialize)(this.pb1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pb2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pb3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pb4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pb5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pb6)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pb7)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pb8)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pb9)).BeginInit();
+            this.button1 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button5 = new System.Windows.Forms.Button();
+            this.button6 = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
+            this.button8 = new System.Windows.Forms.Button();
+            this.button9 = new System.Windows.Forms.Button();
+            this.button7 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -80,11 +71,11 @@
             this.lblTurn.AutoSize = true;
             this.lblTurn.Font = new System.Drawing.Font("Britannic Bold", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTurn.ForeColor = System.Drawing.Color.White;
-            this.lblTurn.Location = new System.Drawing.Point(81, 208);
+            this.lblTurn.Location = new System.Drawing.Point(59, 208);
             this.lblTurn.Name = "lblTurn";
-            this.lblTurn.Size = new System.Drawing.Size(155, 41);
+            this.lblTurn.Size = new System.Drawing.Size(166, 41);
             this.lblTurn.TabIndex = 13;
-            this.lblTurn.Text = "Player 1";
+            this.lblTurn.Text = " Player 1";
             // 
             // label3
             // 
@@ -102,7 +93,7 @@
             this.lblWinner.AutoSize = true;
             this.lblWinner.Font = new System.Drawing.Font("Britannic Bold", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblWinner.ForeColor = System.Drawing.Color.Lime;
-            this.lblWinner.Location = new System.Drawing.Point(53, 316);
+            this.lblWinner.Location = new System.Drawing.Point(39, 312);
             this.lblWinner.Name = "lblWinner";
             this.lblWinner.Size = new System.Drawing.Size(209, 41);
             this.lblWinner.TabIndex = 16;
@@ -114,7 +105,7 @@
             this.btnRestartGame.BackColor = System.Drawing.Color.Black;
             this.btnRestartGame.Font = new System.Drawing.Font("Britannic Bold", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnRestartGame.ForeColor = System.Drawing.Color.White;
-            this.btnRestartGame.Location = new System.Drawing.Point(60, 374);
+            this.btnRestartGame.Location = new System.Drawing.Point(46, 375);
             this.btnRestartGame.Name = "btnRestartGame";
             this.btnRestartGame.Size = new System.Drawing.Size(217, 47);
             this.btnRestartGame.TabIndex = 17;
@@ -122,105 +113,167 @@
             this.btnRestartGame.UseVisualStyleBackColor = false;
             this.btnRestartGame.Click += new System.EventHandler(this.btnRestartGame_Click_1);
             // 
-            // pb1
+            // button1
             // 
-            this.pb1.BackColor = System.Drawing.Color.Black;
-            this.pb1.Image = global::Tic_Tac_Toc_Game.Properties.Resources.question_mark_96;
-            this.pb1.Location = new System.Drawing.Point(308, 142);
-            this.pb1.Name = "pb1";
-            this.pb1.Size = new System.Drawing.Size(122, 96);
-            this.pb1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pb1.TabIndex = 0;
-            this.pb1.TabStop = false;
-            this.pb1.Click += new System.EventHandler(this.pb0_0_Click);
+            this.button1.BackColor = System.Drawing.Color.Black;
+            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button1.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.button1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.button1.Image = global::Tic_Tac_Toc_Game.Properties.Resources.question_mark_96;
+            this.button1.Location = new System.Drawing.Point(308, 142);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(122, 96);
+            this.button1.TabIndex = 18;
+            this.button1.Tag = "?";
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // pb2
+            // button3
             // 
-            this.pb2.Image = global::Tic_Tac_Toc_Game.Properties.Resources.question_mark_96;
-            this.pb2.Location = new System.Drawing.Point(464, 142);
-            this.pb2.Name = "pb2";
-            this.pb2.Size = new System.Drawing.Size(122, 96);
-            this.pb2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pb2.TabIndex = 1;
-            this.pb2.TabStop = false;
-            this.pb2.Click += new System.EventHandler(this.pb0_1_Click);
+            this.button3.BackColor = System.Drawing.Color.Black;
+            this.button3.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button3.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.button3.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.button3.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button3.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.button3.Image = global::Tic_Tac_Toc_Game.Properties.Resources.question_mark_96;
+            this.button3.Location = new System.Drawing.Point(619, 147);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(122, 96);
+            this.button3.TabIndex = 19;
+            this.button3.Tag = "?";
+            this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
-            // pb3
+            // button2
             // 
-            this.pb3.Image = global::Tic_Tac_Toc_Game.Properties.Resources.question_mark_96;
-            this.pb3.Location = new System.Drawing.Point(620, 142);
-            this.pb3.Name = "pb3";
-            this.pb3.Size = new System.Drawing.Size(122, 96);
-            this.pb3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pb3.TabIndex = 2;
-            this.pb3.TabStop = false;
-            this.pb3.Click += new System.EventHandler(this.pb0_2_Click);
+            this.button2.BackColor = System.Drawing.Color.Black;
+            this.button2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button2.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.button2.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.button2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button2.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.button2.Image = global::Tic_Tac_Toc_Game.Properties.Resources.question_mark_96;
+            this.button2.Location = new System.Drawing.Point(464, 147);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(122, 96);
+            this.button2.TabIndex = 20;
+            this.button2.Tag = "?";
+            this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
-            // pb4
+            // button5
             // 
-            this.pb4.Image = global::Tic_Tac_Toc_Game.Properties.Resources.question_mark_96;
-            this.pb4.Location = new System.Drawing.Point(308, 261);
-            this.pb4.Name = "pb4";
-            this.pb4.Size = new System.Drawing.Size(122, 96);
-            this.pb4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pb4.TabIndex = 3;
-            this.pb4.TabStop = false;
-            this.pb4.Click += new System.EventHandler(this.pb1_0_Click);
+            this.button5.BackColor = System.Drawing.Color.Black;
+            this.button5.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button5.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.button5.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.button5.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button5.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.button5.Image = global::Tic_Tac_Toc_Game.Properties.Resources.question_mark_96;
+            this.button5.Location = new System.Drawing.Point(464, 273);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(122, 96);
+            this.button5.TabIndex = 23;
+            this.button5.Tag = "?";
+            this.button5.UseVisualStyleBackColor = false;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
-            // pb5
+            // button6
             // 
-            this.pb5.Image = global::Tic_Tac_Toc_Game.Properties.Resources.question_mark_96;
-            this.pb5.Location = new System.Drawing.Point(464, 261);
-            this.pb5.Name = "pb5";
-            this.pb5.Size = new System.Drawing.Size(122, 96);
-            this.pb5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pb5.TabIndex = 4;
-            this.pb5.TabStop = false;
-            this.pb5.Click += new System.EventHandler(this.pb1_1_Click);
+            this.button6.BackColor = System.Drawing.Color.Black;
+            this.button6.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button6.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.button6.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.button6.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button6.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.button6.Image = global::Tic_Tac_Toc_Game.Properties.Resources.question_mark_96;
+            this.button6.Location = new System.Drawing.Point(619, 273);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(122, 96);
+            this.button6.TabIndex = 22;
+            this.button6.Tag = "?";
+            this.button6.UseVisualStyleBackColor = false;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
-            // pb6
+            // button4
             // 
-            this.pb6.Image = global::Tic_Tac_Toc_Game.Properties.Resources.question_mark_96;
-            this.pb6.Location = new System.Drawing.Point(620, 261);
-            this.pb6.Name = "pb6";
-            this.pb6.Size = new System.Drawing.Size(122, 96);
-            this.pb6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pb6.TabIndex = 5;
-            this.pb6.TabStop = false;
-            this.pb6.Click += new System.EventHandler(this.pb1_2_Click);
+            this.button4.BackColor = System.Drawing.Color.Black;
+            this.button4.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button4.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.button4.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.button4.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button4.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.button4.Image = global::Tic_Tac_Toc_Game.Properties.Resources.question_mark_96;
+            this.button4.Location = new System.Drawing.Point(308, 268);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(122, 96);
+            this.button4.TabIndex = 21;
+            this.button4.Tag = "?";
+            this.button4.UseVisualStyleBackColor = false;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
-            // pb7
+            // button8
             // 
-            this.pb7.Image = global::Tic_Tac_Toc_Game.Properties.Resources.question_mark_96;
-            this.pb7.Location = new System.Drawing.Point(308, 393);
-            this.pb7.Name = "pb7";
-            this.pb7.Size = new System.Drawing.Size(122, 96);
-            this.pb7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pb7.TabIndex = 6;
-            this.pb7.TabStop = false;
-            this.pb7.Click += new System.EventHandler(this.pb2_0_Click);
+            this.button8.BackColor = System.Drawing.Color.Black;
+            this.button8.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button8.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.button8.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.button8.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button8.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.button8.Image = global::Tic_Tac_Toc_Game.Properties.Resources.question_mark_96;
+            this.button8.Location = new System.Drawing.Point(464, 397);
+            this.button8.Name = "button8";
+            this.button8.Size = new System.Drawing.Size(122, 96);
+            this.button8.TabIndex = 26;
+            this.button8.Tag = "?";
+            this.button8.UseVisualStyleBackColor = false;
+            this.button8.Click += new System.EventHandler(this.button8_Click);
             // 
-            // pb8
+            // button9
             // 
-            this.pb8.Image = global::Tic_Tac_Toc_Game.Properties.Resources.question_mark_96;
-            this.pb8.Location = new System.Drawing.Point(464, 393);
-            this.pb8.Name = "pb8";
-            this.pb8.Size = new System.Drawing.Size(122, 96);
-            this.pb8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pb8.TabIndex = 7;
-            this.pb8.TabStop = false;
-            this.pb8.Click += new System.EventHandler(this.pb2_1_Click);
+            this.button9.BackColor = System.Drawing.Color.Black;
+            this.button9.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button9.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.button9.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.button9.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.button9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button9.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.button9.Image = global::Tic_Tac_Toc_Game.Properties.Resources.question_mark_96;
+            this.button9.Location = new System.Drawing.Point(619, 397);
+            this.button9.Name = "button9";
+            this.button9.Size = new System.Drawing.Size(122, 96);
+            this.button9.TabIndex = 25;
+            this.button9.Tag = "?";
+            this.button9.UseVisualStyleBackColor = false;
+            this.button9.Click += new System.EventHandler(this.button9_Click);
             // 
-            // pb9
+            // button7
             // 
-            this.pb9.Image = global::Tic_Tac_Toc_Game.Properties.Resources.question_mark_96;
-            this.pb9.Location = new System.Drawing.Point(620, 393);
-            this.pb9.Name = "pb9";
-            this.pb9.Size = new System.Drawing.Size(122, 96);
-            this.pb9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pb9.TabIndex = 8;
-            this.pb9.TabStop = false;
-            this.pb9.Click += new System.EventHandler(this.pb2_2_Click);
+            this.button7.BackColor = System.Drawing.Color.Black;
+            this.button7.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button7.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.button7.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.button7.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button7.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.button7.Image = global::Tic_Tac_Toc_Game.Properties.Resources.question_mark_96;
+            this.button7.Location = new System.Drawing.Point(308, 392);
+            this.button7.Name = "button7";
+            this.button7.Size = new System.Drawing.Size(122, 96);
+            this.button7.TabIndex = 24;
+            this.button7.Tag = "?";
+            this.button7.UseVisualStyleBackColor = false;
+            this.button7.Click += new System.EventHandler(this.button7_Click);
             // 
             // From1
             // 
@@ -228,35 +281,26 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
             this.ClientSize = new System.Drawing.Size(838, 549);
-            this.Controls.Add(this.pb9);
+            this.Controls.Add(this.button8);
+            this.Controls.Add(this.button9);
+            this.Controls.Add(this.button7);
+            this.Controls.Add(this.button5);
+            this.Controls.Add(this.button6);
+            this.Controls.Add(this.button4);
+            this.Controls.Add(this.button2);
+            this.Controls.Add(this.button3);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.btnRestartGame);
-            this.Controls.Add(this.pb8);
             this.Controls.Add(this.lblWinner);
-            this.Controls.Add(this.pb7);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.pb6);
             this.Controls.Add(this.lblTurn);
-            this.Controls.Add(this.pb5);
-            this.Controls.Add(this.pb4);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.pb3);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.pb2);
-            this.Controls.Add(this.pb1);
             this.ForeColor = System.Drawing.Color.White;
             this.Name = "From1";
             this.Text = "Tic-Tac-Toe Game";
             this.Load += new System.EventHandler(this.From1_Load);
             this.Paint += new System.Windows.Forms.PaintEventHandler(this.From1_Paint);
-            ((System.ComponentModel.ISupportInitialize)(this.pb1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pb2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pb3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pb4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pb5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pb6)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pb7)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pb8)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pb9)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -269,15 +313,15 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label lblWinner;
         private System.Windows.Forms.Button btnRestartGame;
-        private System.Windows.Forms.PictureBox pb1;
-        private System.Windows.Forms.PictureBox pb2;
-        private System.Windows.Forms.PictureBox pb3;
-        private System.Windows.Forms.PictureBox pb4;
-        private System.Windows.Forms.PictureBox pb5;
-        private System.Windows.Forms.PictureBox pb6;
-        private System.Windows.Forms.PictureBox pb7;
-        private System.Windows.Forms.PictureBox pb8;
-        private System.Windows.Forms.PictureBox pb9;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button button8;
+        private System.Windows.Forms.Button button9;
+        private System.Windows.Forms.Button button7;
     }
 }
 
