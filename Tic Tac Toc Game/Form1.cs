@@ -215,59 +215,19 @@ namespace Tic_Tac_Toc_Game
 
             e.Graphics.DrawLine(Pen, 300, 250, 750, 250);
             e.Graphics.DrawLine(Pen, 300, 380, 750, 380);
-            e.Graphics.DrawLine(Pen, 450, 140, 450, 500);
-            e.Graphics.DrawLine(Pen, 600, 140, 600, 500);
+            e.Graphics.DrawLine(Pen, 450, 130, 450, 500);
+            e.Graphics.DrawLine(Pen, 600, 130, 600, 500);
         }
-
-      
+  
         private void btnRestartGame_Click_1(object sender, EventArgs e)
         {
             RestartGame();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        void Button_Click(object sender,EventArgs e)
         {
             ChangeImage((Button)sender);
         }
-
-        private void button2_Click(object sender, EventArgs e)
-        {
-            ChangeImage((Button)sender);
-        }
-
-        private void button3_Click(object sender, EventArgs e)
-        {
-            ChangeImage((Button)sender);
-        }
-
-        private void button4_Click(object sender, EventArgs e)
-        {
-            ChangeImage((Button)sender);
-        }
-
-        private void button5_Click(object sender, EventArgs e)
-        {
-            ChangeImage((Button)sender);
-        }
-
-        private void button6_Click(object sender, EventArgs e)
-        {
-            ChangeImage((Button)sender);
-        }
-
-        private void button7_Click(object sender, EventArgs e)
-        {
-            ChangeImage((Button)sender);
-        }
-
-        private void button8_Click(object sender, EventArgs e)
-        {
-            ChangeImage((Button)sender);
-        }
-
-        private void button9_Click(object sender, EventArgs e)
-        {
-            ChangeImage((Button)sender);
-        }
+       
     }
 }

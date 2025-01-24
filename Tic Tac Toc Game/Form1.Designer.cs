@@ -103,6 +103,7 @@
             // btnRestartGame
             // 
             this.btnRestartGame.BackColor = System.Drawing.Color.Black;
+            this.btnRestartGame.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnRestartGame.Font = new System.Drawing.Font("Britannic Bold", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnRestartGame.ForeColor = System.Drawing.Color.White;
             this.btnRestartGame.Location = new System.Drawing.Point(46, 375);
@@ -123,13 +124,13 @@
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.ForeColor = System.Drawing.SystemColors.ControlText;
             this.button1.Image = global::Tic_Tac_Toc_Game.Properties.Resources.question_mark_96;
-            this.button1.Location = new System.Drawing.Point(308, 142);
+            this.button1.Location = new System.Drawing.Point(308, 132);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(122, 96);
             this.button1.TabIndex = 18;
             this.button1.Tag = "?";
             this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.button1.Click += new System.EventHandler(this.Button_Click);
             // 
             // button3
             // 
@@ -141,13 +142,13 @@
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button3.ForeColor = System.Drawing.SystemColors.ControlText;
             this.button3.Image = global::Tic_Tac_Toc_Game.Properties.Resources.question_mark_96;
-            this.button3.Location = new System.Drawing.Point(619, 147);
+            this.button3.Location = new System.Drawing.Point(619, 132);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(122, 96);
             this.button3.TabIndex = 19;
             this.button3.Tag = "?";
             this.button3.UseVisualStyleBackColor = false;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
+            this.button3.Click += new System.EventHandler(this.Button_Click);
             // 
             // button2
             // 
@@ -159,13 +160,13 @@
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.ForeColor = System.Drawing.SystemColors.ControlText;
             this.button2.Image = global::Tic_Tac_Toc_Game.Properties.Resources.question_mark_96;
-            this.button2.Location = new System.Drawing.Point(464, 147);
+            this.button2.Location = new System.Drawing.Point(464, 132);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(122, 96);
             this.button2.TabIndex = 20;
             this.button2.Tag = "?";
             this.button2.UseVisualStyleBackColor = false;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.button2.Click += new System.EventHandler(this.Button_Click);
             // 
             // button5
             // 
@@ -177,13 +178,13 @@
             this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button5.ForeColor = System.Drawing.SystemColors.ControlText;
             this.button5.Image = global::Tic_Tac_Toc_Game.Properties.Resources.question_mark_96;
-            this.button5.Location = new System.Drawing.Point(464, 273);
+            this.button5.Location = new System.Drawing.Point(464, 261);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(122, 96);
             this.button5.TabIndex = 23;
             this.button5.Tag = "?";
             this.button5.UseVisualStyleBackColor = false;
-            this.button5.Click += new System.EventHandler(this.button5_Click);
+            this.button5.Click += new System.EventHandler(this.Button_Click);
             // 
             // button6
             // 
@@ -195,13 +196,13 @@
             this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button6.ForeColor = System.Drawing.SystemColors.ControlText;
             this.button6.Image = global::Tic_Tac_Toc_Game.Properties.Resources.question_mark_96;
-            this.button6.Location = new System.Drawing.Point(619, 273);
+            this.button6.Location = new System.Drawing.Point(619, 261);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(122, 96);
             this.button6.TabIndex = 22;
             this.button6.Tag = "?";
             this.button6.UseVisualStyleBackColor = false;
-            this.button6.Click += new System.EventHandler(this.button6_Click);
+            this.button6.Click += new System.EventHandler(this.Button_Click);
             // 
             // button4
             // 
@@ -213,13 +214,13 @@
             this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button4.ForeColor = System.Drawing.SystemColors.ControlText;
             this.button4.Image = global::Tic_Tac_Toc_Game.Properties.Resources.question_mark_96;
-            this.button4.Location = new System.Drawing.Point(308, 268);
+            this.button4.Location = new System.Drawing.Point(308, 261);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(122, 96);
             this.button4.TabIndex = 21;
             this.button4.Tag = "?";
             this.button4.UseVisualStyleBackColor = false;
-            this.button4.Click += new System.EventHandler(this.button4_Click);
+            this.button4.Click += new System.EventHandler(this.Button_Click);
             // 
             // button8
             // 
@@ -237,7 +238,7 @@
             this.button8.TabIndex = 26;
             this.button8.Tag = "?";
             this.button8.UseVisualStyleBackColor = false;
-            this.button8.Click += new System.EventHandler(this.button8_Click);
+            this.button8.Click += new System.EventHandler(this.Button_Click);
             // 
             // button9
             // 
@@ -255,7 +256,7 @@
             this.button9.TabIndex = 25;
             this.button9.Tag = "?";
             this.button9.UseVisualStyleBackColor = false;
-            this.button9.Click += new System.EventHandler(this.button9_Click);
+            this.button9.Click += new System.EventHandler(this.Button_Click);
             // 
             // button7
             // 
@@ -273,7 +274,7 @@
             this.button7.TabIndex = 24;
             this.button7.Tag = "?";
             this.button7.UseVisualStyleBackColor = false;
-            this.button7.Click += new System.EventHandler(this.button7_Click);
+            this.button7.Click += new System.EventHandler(this.Button_Click);
             // 
             // From1
             // 
